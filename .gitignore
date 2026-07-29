@@ -1,0 +1,16 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+*.suo
+.dotnet-cli/
+.nuget/
+
+# Secrets / runtime data (keep next to --root, never commit)
+*.csv
+proxies.txt
+trade_tokens.json
+sessions/
+price_cache.json
+*.log
